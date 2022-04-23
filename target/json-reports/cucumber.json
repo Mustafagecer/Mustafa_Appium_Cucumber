@@ -1,0 +1,176 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-20T12:18:22.083Z",
+        "line": 3,
+        "name": "hazir method kullanimi",
+        "description": "",
+        "id": "apidemis;hazir-method-kullanimi",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27107998900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "App telefonda acilsin",
+            "match": {
+              "location": "stepdefinations.FirstClassStepDefs.app_telefonda_acilsin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6786987700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici \"API Demos\" tiklasin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"API Demos\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinations.HazirMethodStepDefs.kullanici_tiklasin(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5748001000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici \"Preference\" tiklasin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Preference\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinations.HazirMethodStepDefs.kullanici_tiklasin(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5293000100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"3. Preference dependencies\" tiklasin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3. Preference dependencies\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinations.HazirMethodStepDefs.kullanici_tiklasin(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1008000500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici checkbox tik atsin",
+            "match": {
+              "location": "stepdefinations.FirstClassStepDefs.kullanici_checkbox_tik_atsin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5590995200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici \"WiFi settings\" tiklasin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WiFi settings\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinations.HazirMethodStepDefs.kullanici_tiklasin(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 317998000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "kullanici kutiya yazi gondersin \"test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinations.FirstClassStepDefs.kullanici_kutiya_yazi_gondersin(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1703001600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "kullanici OK tiklasin",
+            "match": {
+              "location": "stepdefinations.FirstClassStepDefs.kullanici_ok_tiklasin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1539995700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "App kapansin",
+            "match": {
+              "location": "stepdefinations.FirstClassStepDefs.appKapansin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ReusableMethods"
+          }
+        ]
+      }
+    ],
+    "name": "apidemis",
+    "description": "",
+    "id": "apidemis",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/HazirMethod.feature",
+    "tags": [
+      {
+        "name": "@ReusableMethods",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

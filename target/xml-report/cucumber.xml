@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="57.815">
+    <testcase classname="apidemis" name="hazir method kullanimi" time="55.543">
+        <system-out>
+            <![CDATA[Given App telefonda acilsin.................................................passed
+When kullanici "API Demos" tiklasin.........................................passed
+When kullanici "Preference" tiklasin........................................passed
+When kullanici "3. Preference dependencies" tiklasin........................passed
+And kullanici checkbox tik atsin............................................passed
+When kullanici "WiFi settings" tiklasin.....................................passed
+And kullanici kutiya yazi gondersin "test"..................................passed
+Then kullanici OK tiklasin..................................................passed
+Then App kapansin...........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
